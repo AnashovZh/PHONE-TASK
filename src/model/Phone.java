@@ -36,16 +36,5 @@ public class Phone {
     public void setContacts(Contact[] contacts) {
         this.contacts = contacts;
     }
-    public static void call(long number,Contact[]contacts){
-        for (int i = 0; i <contacts.length ; i++) {
-            if(number==contacts[i].getPhoneNumber()){
-                System.out.println(contacts[i].getFullName()+" "+contacts[i].getPhoneNumber());
-            }
-        }
-    }public static void appDateName(Contact []contacts,String name){
-        for (int i = 0; i < contacts.length; i++) {
-            if(name.equals(contacts[i].getFullName())){
-            }
-        }
-    }
+
 }
