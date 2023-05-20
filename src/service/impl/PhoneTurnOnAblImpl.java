@@ -12,7 +12,7 @@ public class PhoneTurnOnAblImpl implements PhoneTurnOnAbl {
             if(password.equals(phones[i].getPassword())){
                 System.out.println("This phone turnOn: "+phones[i].getName()+" "+phones[i].getBrand());
             }
-
+            else System.out.println("Try again");
         }
     }
 }

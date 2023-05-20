@@ -49,7 +49,7 @@ Phone[]phones={phone1,phone2,phone3};
 
                 System.out.println("Тедефонду куйгузуучу метод: ");
                 PhoneTurnOnAbl phoneTurnOnAbl=new PhoneTurnOnAblImpl();
-                phoneTurnOnAbl.turnOn("a1234",phones);
+                phoneTurnOnAbl.turnOn("trsdfxcfty",phones);
                 break;
             case 2:
                 System.out.println("Телефон номери менен чалуучу метод:");
@@ -76,6 +76,7 @@ Phone[]phones={phone1,phone2,phone3};
                 System.out.println("Телефондогу баардык контакттарды чыгаруучу метод:");
                 ContactGetAllAbl ContactGetAllAbl=new ContactGetAllAblImpl();
                 ContactGetAllAbl.getAllContact(contacts);
+                break;
             default:System.out.println("Ушул сандарды гана танданыз !!! "+"\n"+
                     "1-> Тедефонду куйгузуучу метод:"+"\n"+
                     "2-> Телефон номери менен чалуучу метод:"+"\n"+
